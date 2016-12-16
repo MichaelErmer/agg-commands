@@ -32,13 +32,13 @@ commands.exists('other-command') // false
 `.hasFlag()` is used to check if the command has the flag:
 
 ```javascript
-commands.hasFlag('get', 'readonly') // false
+commands.hasFlag('GET', 'readonly') // false
 ```
 
 `.getKeyIndexes()` is used to get the indexes of keys in the command arguments:
 
 ```javascript
-commands.getKeyIndexes('inc', ['key', 'value']) // [0]
-commands.getKeyIndexes('get', ['key1']) // [0]
+commands.getKeyIndexes('INC', ['key', 'value']) // [0]
+commands.getKeyIndexes('GET', ['key1']) // [0]
 ```
 

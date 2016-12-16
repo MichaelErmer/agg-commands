@@ -59,8 +59,8 @@ exports.hasFlag = function (commandName, flag) {
  *
  * @example
  * ```javascript
- * getKeyIndexes('set', ['key', 'value']) // [0]
- * getKeyIndexes('mget', ['key1', 'key2']) // [0, 1]
+ * getKeyIndexes('GET', ['key']) // [0]
+ * getKeyIndexes('INC', ['key', 'value']) // [0, 1]
  * ```
  */
 exports.getKeyIndexes = function (commandName, args, options) {
