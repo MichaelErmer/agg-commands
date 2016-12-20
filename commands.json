@@ -83,7 +83,7 @@
     "keyStop": 1,
     "step": 1
   },
-  "PIG": {
+  "PNG": {
     "arity": -1,
     "flags": [
       "stale",
