@@ -1,5 +1,7 @@
 # AGG++ Commands
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/contactimpact/agg-commands.svg)](https://greenkeeper.io/)
+
 This module exports all the commands that AGG++ supports.
 
 ## Install
